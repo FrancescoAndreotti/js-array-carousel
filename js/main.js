@@ -54,12 +54,12 @@ const arrowBottom = document.querySelector(".arrow-bottom");
 
 arrowTop.addEventListener("click", function () {
     const activeImg = imageContainer.querySelector(".active");
-    console.log(activeImg);
+
 
     activeImg.classList.remove("active");
 
     currentIndex--;
-    console.log(currentIndex);
+
 
     if (currentIndex <= 0) {
         currentIndex = items.length - 1;
